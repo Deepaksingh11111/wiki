@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌌 Wikipedia Galaxy Explorer by Deepak Singh</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <!-- ⭐ Star Background Animation -->
+  <canvas id="starCanvas"></canvas>
+
+  <div class="container">
+    <h1>🌌 Wikipedia Galaxy Explorer by Deepak Singh</h1>
+    <input id="query" placeholder="Type or Speak a topic..." />
+    <button onclick="searchWiki()">🔍 Search</button>
+    <button onclick="voiceSearch()">🎙️ Speak</button>
+    <button onclick="aiExplain()">🤖 AI Explain</button>
+
+    <div id="output" class="card"></div>
+    <audio id="tts" autoplay></audio>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
